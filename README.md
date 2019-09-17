@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: colpal/actions-gsutil@v1.0.3
+      - uses: colpal/actions-gsutil@v1.0.0
         env:
           GCP_CREDENTIALS: ${{ secrets.GCP_CREDENTIALS }}
         with:
